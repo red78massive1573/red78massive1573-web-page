@@ -14,7 +14,6 @@
 /***** Global *****/
 /* Body */
 	body {
-		background: url('https://red78massive1573.github.io/redmassive.github.io/files/images/back4.jpg');
 		color: #000305;
 		font-size: 87.5%; /* Base font size: 14px */
 		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,6 +21,13 @@
 		margin: 0;
 		padding: 0;
 		text-align: left;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	mark {
+		background-color: white;
+		color: black;
 	}
 
 /* Headings */
