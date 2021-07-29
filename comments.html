@@ -1,5 +1,5 @@
 <?php
-require('files/php/Persistence.php');
+require('files/config/Persistence.php');
 $comment_post_ID = 1;
 $db = new Persistence();
 $comments = $db->get_comments($comment_post_ID);
@@ -10,7 +10,7 @@ $has_comments = (count($comments) > 0);
 <head>
 	<title>Comments</title>
 	
-	<link rel="stylesheet" href="./files/css/main.css" type="text/css" />
+	<link rel="stylesheet" href="./files/config/main.css" type="text/css" />
 
 </head>
 
@@ -50,7 +50,7 @@ $has_comments = (count($comments) > 0);
 
       <h3>Leave a Comment</h3>
 
-      <form action="files/php/post_comment.php" method="post" id="commentform">
+      <form action="files/config/post_comment.php" method="post" id="commentform">
 
         <label for="comment_author" class="required">Your name</label>
         <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
