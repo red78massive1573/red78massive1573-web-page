@@ -1,15 +1,7 @@
-<?php
-require('files/config/Persistence.php');
-$comment_post_ID = 1;
-$db = new Persistence();
-$comments = $db->get_comments($comment_post_ID);
-$has_comments = (count($comments) > 0);
-?>
-
 <html>
 <head>
 	<title>Comments</title>
-	
+	<link rel="icon" href="./files/icons/main-favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="./files/config/main.css" type="text/css" />
 
 </head>
