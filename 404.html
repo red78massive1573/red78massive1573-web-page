@@ -10,7 +10,19 @@
 			<center>
 				<h2>⚠️404⚠️</h2>
 				<h3>The page you're looking might not exist, removed, or moved somewhere else.</h3>
-				<h4><a href="/">Click here</a> to go back to home.</h4>
+				<div id="countdown"></div>
+				<script>
+					var timeleft = 10;
+					var downloadTimer = setInterval(function(){
+						if(timeleft <= 0){
+							clearInterval(downloadTimer);
+							window.location.replace("/");
+						} else {
+							document.getElementById("countdown").innerHTML = "Redirecting you back to the main page in " + timeleft + " seconds";
+						}
+						timeleft -= 1;
+					}, 1000);
+				</script>
 			</center>
 		</section>
 	</body>
