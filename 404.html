@@ -16,7 +16,7 @@
 					var downloadTimer = setInterval(function(){
 						if(timeleft <= 0){
 							clearInterval(downloadTimer);
-							window.location.replace("./");
+							window.location.replace("/");
 						} else {
 							document.getElementById("countdown").innerHTML = "Redirecting you back to the main page in " + timeleft + " seconds";
 						}
