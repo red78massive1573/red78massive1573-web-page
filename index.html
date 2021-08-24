@@ -4,6 +4,8 @@
 		<link rel="icon" href="/files/icons/main-favicon.ico" type="image/x-icon">
 		<title>Main Page</title>
 		<link rel="stylesheet" href="/files/config/main.css" type="text/css"/>
+		<script src="/files/config/copy.js"></script>
+		<script src="/files/config/count.js"></script>
 	</head>
 	
 	<body>
@@ -57,7 +59,11 @@
 					<mark>🤫secret!🤫</mark>
 				</a>
 			</p>
-			<script type="text/javascript">document.write('You are visitor <img src="//counter.websiteout.net/compte.php?S='+encodeURI(window.location.hostname)+'&C=5&D=0&N=0&M=1" alt="" border="0" /> (by visits)');</script>
+			<script type="text/javascript">
+				document.write('You are visitor <img src="//counter.websiteout.net/compte.php?S='+encodeURI(window.location.hostname)+'&C=5&D=0&N=0&M=1" alt="" border="0" /> (by visits)<br>');
+				document.write("You are here for <b>" + amt() + " times.<br>")
+			</script>
+			<input type="button" onclick="DeleteCookie('count')" value="Reset Cookies"/>
 		</section>
 		<section>
 			
@@ -187,6 +193,5 @@
 				</div>
 			</div>
 		</section>
-		<script src="/files/config/copy.js"></script>
 	</body>
 </html>
