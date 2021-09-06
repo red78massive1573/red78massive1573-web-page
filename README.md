@@ -12,6 +12,7 @@ Table of contents:
 * [My School's Timetable](#school)
 * [Secret](#secret)
 * [My Discord Server](#discord)
+* [discussion](#discuss)
 
 ## <a name="songs" href="https://red78massive1573.github.io/songs/">Songs</a>
 In this page, i've uploaded some of [TheFatRat](https://www.youtube.com/c/TheFatRat)'s songs so you can listen them without going to [YouTube](https://www.youtube.com/).
@@ -29,7 +30,10 @@ In this page, You can see the page that my little brother made.
 In Progress...
 
 ## <a name="secret" href="https://red78massive1573.github.io/secret/">Secret</a>
-Just a Trolling page XD
+Just a Trolling page XD.
 
 ## <a name="discord" href="https://red78massive1573.github.io#discord">My Discord Server</a>
-Join my Discord server in this part of the website
+Join my Discord server in this part of the website.
+
+## <a name="discuss" href="https://red78massive1573.github.io/#disqus_thread">My Discussion Thread</a>
+In this part of the web, you can discuss things with the community.
