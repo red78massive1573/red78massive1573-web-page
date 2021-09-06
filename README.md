@@ -5,7 +5,7 @@ This repo is for my WebSite, you can access it using this [link](https://red78ma
 You can see my social's [here](https://app.simplenote.com/p/VywpG7)
 
 Table of contents:
-* [Songs](./#Songs)
+* [Songs](./../#Songs)
 * [Social Media Posts](#SocialMediaPosts)
 * [Scratch Related Post](a)
 * [Little brother's page](a)
