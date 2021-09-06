@@ -13,58 +13,67 @@ Table of contents:
 * [Secret](#secret)
 * [My Discord Server](#discord)
 
-#
 ## Songs<a name="songs"></a>
 In this page, i've uploaded some of [TheFatRat](https://www.youtube.com/c/TheFatRat)'s songs so you can listen them without going to [YouTube](https://www.youtube.com/).
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 ## Social Media Posts<a name="social"></a>
-
-
-
-
-
-
-
-
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 ## Scratch Related Posts<a name="scratch"></a>
-
-
-
-
-
-
-
-
-
+|
+|
+|
+|
+|
+|
+|
 
 ## Little Brother's Page<a name="lil"></a>
-
-
-
-
-
-
+|
+|
+|
+|
+|
+|
+|
 
 ## My School Timetable<a name="school"></a>
-
-
-
-
-
+|
+|
+|
+|
+|
+|
 
 ## Secret<a name="secret"></a>
-
-
-
-
-
+|
+|
+|
+|
+|
+|
 
 ## My Discord Server<a name="discord"></a>
-
-
-
-
-
-
-
+|
+|
+|
+|
+|
+|
