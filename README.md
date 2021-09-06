@@ -11,6 +11,7 @@ Table of contents:
 * [Little Brother's Page](#lil)
 * [My School's Timetable](#school)
 * [Secret](#secret)
+* [LMAO pics / vids](#LMAO)
 * [My Discord Server](#discord)
 * [discussion](#discuss)
 
@@ -31,6 +32,9 @@ In Progress...
 
 ## <a name="secret" href="https://red78massive1573.github.io/secret/">Secret</a>
 Just a Trolling page XD.
+
+## <a name="LMAO" href="https://red78massive1573.github.io/LMAO/">LMAO pics / vids</a>
+Just a page full of LMAO pics / vids
 
 ## <a name="discord" href="https://red78massive1573.github.io#discord">My Discord Server</a>
 Join my Discord server in this part of the website.
