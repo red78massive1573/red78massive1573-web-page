@@ -1,6 +1,0 @@
-var style-footer = '<link rel="stylesheet" href="https://scratch.mit.edu/common.css">			<link rel="stylesheet" href="https://scratch.mit.edu/css/lib/normalize.min.css">			<link rel="stylesheet" href="https://scratch.mit.edu/splash.css">			<style>				body, /* scratch-www */				#content /* scratchr2 */ {					padding-bottom: 31px;				}								/*				thank you to ZenithKnight for the following footer CSS				*/				#footer {					position: fixed;					top: initial;					bottom: 0;					width: 100%;					border-top: 1px solid #d9d9d9;					height: 32px;					padding: 0;					z-index: 20;					transition-duration: 0.5s;				}				#footer .container {					padding-top: 20px;				}				#footer:hover {					height: var(--footer-hover-height);				}								.page > #view {					margin-bottom: 0;				}								:root {					--footer-hover-height: 200px; /* How high the hovered footer is (for donor text fix) */				}				mark {					background-color: transparent;					color: black;				}			</style>'
-var open-footer = '<div id="footer">				<div class="inner">					<br>					<div class="lists">						<dl>'
-var close-footer = '</dl>					</div>				</div>			</div>'
-function head(x) {
-document.write('<dt>								<span>' + x + '</span>							</dt>')
-}
