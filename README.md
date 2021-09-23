@@ -9,7 +9,6 @@ Table of contents:
 * [Social Media Posts](#social)
 * [Scratch Related Posts](#scratch)
 * [Little Brother's Page](#lil)
-* [My School's Timetable](#school)
 * [Secret](#secret)
 * [LMAO pics / vids / auds](#LMAO)
 * [My Discord Server](#discord)
@@ -26,9 +25,6 @@ In this page, I will going to post [Scratch](https://scratch.mit.edu/) related a
 
 ## <a name="lil" href="https://red78massive1573.github.io/lil-bro-s-web/">Little Brother's Page</a>
 In this page, You can see the page that my little brother made.
-
-## <a name="school" href="https://red78massive1573.github.io/jadwal/">My School Timetable</a>
-In Progress...
 
 ## <a name="secret" href="https://red78massive1573.github.io/secret/">Secret</a>
 Just a Trolling page XD.
