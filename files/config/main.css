@@ -1,11 +1,3 @@
-/*
-	Name: Smashing HTML5
-	Date: July 2009
-	Description: Sample layout for HTML5 and CSS3 goodness.
-	Version: 1.0
-	Author: Enrique RamÃ­rez
-	Autor URI: http://enrique-ramirez.com
-*/
 
 /* Imports */
 @import url("reset.css");
@@ -49,6 +41,27 @@
 
 #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
+}
+
+/* right border */
+rb{
+	display:inline-block;
+	border-right:1px solid rgba(0, 0, 0,.3);
+	margin:0;
+	margin-right:20px;
+	padding:10px 23px 10px 0;
+	font-weight:500;
+	vertical-align:top
+}
+
+#rb{
+	display:inline-block;
+	border-right:1px solid rgba(0, 0, 0,.3);
+	margin:0;
+	margin-right:20px;
+	padding:10px 23px 10px 0;
+	font-weight:500;
+	vertical-align:top
 }
 
 /* Headings */
