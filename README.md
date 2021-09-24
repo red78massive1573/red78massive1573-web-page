@@ -27,7 +27,7 @@ In this page, I will going to post [Scratch](https://scratch.mit.edu/) related a
 In this page, You can see the page that my little brother made.
 
 ## <a name="secret" href="https://red78massive1573.github.io/secret/">Secret</a>
-Just a Trolling page XD.
+🤫Contains some secret🤫
 
 ## <a name="LMAO" href="https://red78massive1573.github.io/LMAO/">LMAO pics / vids / auds</a>
 Just a page full of LMAO pictures / videos / audios
