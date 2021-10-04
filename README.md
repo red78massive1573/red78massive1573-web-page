@@ -37,7 +37,7 @@ Just a page full of LMAO pictures / videos / audios.
 ## <a name="blog" href="https://red78massive1573.github.io/blog">My Blog</a>
 In this page, You can see all of my blog post.
 
-## <a name="flip" href="https://red78massive1573.github.io/flip">My Blog</a>
+## <a name="flip" href="https://red78massive1573.github.io/flip">A text flipper engine :v</a>
 In this page, You can flip a text however you want.
 
 ## <a name="discord" href="https://red78massive1573.github.io#discord">My Discord Server</a>
