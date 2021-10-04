@@ -8,81 +8,86 @@
 		<script src="/files/config/footer.js"></script>
 		<script src="./files/config/fliptext.js"></script>
 	</head>
-<body>
-	<section id="content" class="body">
-<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
-   <tbody><tr> 
-    <td width="800" height="255" colspan="11" valign="top" bgcolor="#f4f4f4"><div align="center"><br>
-     <form style="margin-bottom: 0px; margin-top: 0px; font-size: 14px;" action="" name="form_reverse">
-      <table width="800" border="0" align="center" cellpadding="0" cellspacing="0" style="font-size: 14px;">
-
-       <tbody><tr>
-        <td nowrap="nowrap">
-         <div align="center">
-          <input name="thebutton6" onmouseover="buttonrevupsdn(); this.style.backgroundColor='#B4FBFB'; this.style.fontSize='13px'" onmouseout="buttonrevupsdn(); this.style.backgroundColor='#D2DBE3'; this.style.fontSize='13px'" onclick="flipupsidedown();" value="Flip Upside Down" style="border: 1px solid rgb(0, 0, 0); width: 123px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); font-size: 13px; font-family: arial; cursor: pointer;" type="button">
-          <!--<input name="thebutton1" onmouseover="buttonrev(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrev(); this.style.backgroundColor='#D2DBE3';" onclick="reversetext()" value="Reverse Text" style="border: 1px solid rgb(0, 0, 0); width: 97px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">-->
-          <input name="thebutton2" onmouseover="buttonrevflp(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevflp(); this.style.backgroundColor='#D2DBE3';" onclick="fliptext()" value="Flip Text" style="border: 1px solid rgb(0, 0, 0); width: 72px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
-          <!--<input name="thebutton3" onmouseover="buttonrevwrdng(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevwrdng(); this.style.backgroundColor='#D2DBE3';" onclick="reversewords()" value="Reverse Words" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">-->
-          <input name="thebutton4" onmouseover="buttonrevwrdngflp(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevwrdngflp(); this.style.backgroundColor='#D2DBE3';" onclick="flipwords();" value="Flip Words" style="border: 1px solid rgb(0, 0, 0); width: 95px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
-          <input name="thebutton5" onmouseover="buttonrevwrdlet(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevwrdlet(); this.style.backgroundColor='#D2DBE3';" onclick="reversewordletters()" value="Reverse Lettering" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
-	  <input name="thebutton8" onmouseover="this.style.backgroundColor='#B4FBFB';" onmouseout="this.style.backgroundColor='#D2DBE3';" onclick="unicodetext();" value="Funny code Text" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
-	  <input name="thebutton7" onmouseover="this.style.backgroundColor='#B4FBFB';" onmouseout="this.style.backgroundColor='#D2DBE3';" onclick="genpassword();" value="Passwords Generator" style="border: 1px solid rgb(0, 0, 0); width: 150px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
-         </div>
-        </td>
-       </tr></tbody>
-
-
-      </table>
-      <!--[if IE]><style type="text/css">.ie-android-ad { float: left; margin-left: -62px; }</style><![endif]-->
-
-      <p>
-
-
-
-       <textarea name="input_output" id="input_output" style="border: 1px solid rgb(0, 0, 0); overflow: scroll; width: 750; height: 205px; margin-top: 3px; font-family: Arial; font-size: 14px; background-color: rgb(255, 255, 255);" wrap="off" onfocus="this.value=''; this.onfocus=null;" spellcheck="false">Enter text to be reversed here. Click reversing function button above.
-Click same function button again and watch reversed text be unreversed.
-
-"Flip Upside Down" will create the illusion of an upside down text and character substitution.
-"Flip Text" will reverse the entire text string. reverse text. text reverser. backwards
-"Flip Words" will reverse the entire word order without reversing the word lettering. text flipper
-"Reverse Lettering" will reverse each word's lettering without changing the word order or punctuation.
-"Funny code Text" you can make joke encode and joke decode your text here.
-"Passwords Generator" - Free tool strong Online Passwords Generator     
-       </textarea>
-
-       <table width="750" cellpadding="0" cellspacing="0">
-        <tbody><tr valign="top"> 
-         <td height="28" colspan="2"> 
-          <div align="center"><font color="#666666" size="1" face="Verdana, Arial, Helvetica, sans-serif"><img src="./files/images/bulb.png" alt="flip text generator" width="25" height="25" align="absmiddle"> 
-                  Type an Upside Down <font color="#CCCCCC">•</font> 
-                  Generate a Strong free online Passwords</font>
-	  </div>
-	 </td>
-        </tr>
-        <tr> 
-         <td width="220">
-	  <input title="Select All Text" onclick="SelectAll('input_output')" value="Select All Text" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); font-size: 14px; font-family: arial; cursor: pointer;" onmouseover="this.style.backgroundColor='#B4FBFB'" onmouseout="this.style.backgroundColor='#D2DBE3'" type="button"> 
-          <input title="Clear All Text" onclick="cleartext();" value="Clear Text" style="border: 1px solid rgb(0, 0, 0); width: 78px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); margin-left: -1px; font-size: 14px; font-family: arial; cursor: pointer;" onmouseover="this.style.backgroundColor='#B4FBFB'" onmouseout="this.style.backgroundColor='#D2DBE3'" type="button">
-	 </td>
-         <td width="528" valign="middle">
-	  <div align="left">
-	   <font color="#313335"><font size="2"><font face="trebuchet ms"><b>Upside Down</b> Words Text and Free tool strong Online Password Generator reverse text</font></font></font>
-	   <font size="2"><font color="#333333" face="trebuchet ms"></font><font color="#666666" size="2" face="TREBUCHET MS"></font><font size="2"><font color="#666666" size="2" face="TREBUCHET MS">&nbsp;&nbsp;</font></font><font color="#666666" size="2" face="TREBUCHET MS">&nbsp;&nbsp;</font><font color="#666666" size="2" face="TREBUCHET MS"> </font></font>
-	  </div>
-	 </td>
-        </tr>
-       </tbody></table>
-      </p>
-     </form>
-    </div>
-   </td>
-  </tr>
-</tbody></table>
-</section>
+	<body>
+		<section id="content" class="body">
+			<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr> 
+						<td width="800" height="255" colspan="11" valign="top" bgcolor="#f4f4f4"><div align="center"><br>
+							<form style="margin-bottom: 0px; margin-top: 0px; font-size: 14px;" action="" name="form_reverse">
+								<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" style="font-size: 14px;">
+									
+									<tbody>
+										<tr>
+											<td nowrap="nowrap">
+												<div align="center">
+													<input name="thebutton6" onmouseover="buttonrevupsdn(); this.style.backgroundColor='#B4FBFB'; this.style.fontSize='13px'" onmouseout="buttonrevupsdn(); this.style.backgroundColor='#D2DBE3'; this.style.fontSize='13px'" onclick="flipupsidedown();" value="Flip Upside Down" style="border: 1px solid rgb(0, 0, 0); width: 123px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); font-size: 13px; font-family: arial; cursor: pointer;" type="button">
+													<!--<input name="thebutton1" onmouseover="buttonrev(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrev(); this.style.backgroundColor='#D2DBE3';" onclick="reversetext()" value="Reverse Text" style="border: 1px solid rgb(0, 0, 0); width: 97px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">-->
+													<input name="thebutton2" onmouseover="buttonrevflp(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevflp(); this.style.backgroundColor='#D2DBE3';" onclick="fliptext()" value="Flip Text" style="border: 1px solid rgb(0, 0, 0); width: 72px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
+													<!--<input name="thebutton3" onmouseover="buttonrevwrdng(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevwrdng(); this.style.backgroundColor='#D2DBE3';" onclick="reversewords()" value="Reverse Words" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">-->
+													<input name="thebutton4" onmouseover="buttonrevwrdngflp(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevwrdngflp(); this.style.backgroundColor='#D2DBE3';" onclick="flipwords();" value="Flip Words" style="border: 1px solid rgb(0, 0, 0); width: 95px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
+													<input name="thebutton5" onmouseover="buttonrevwrdlet(); this.style.backgroundColor='#B4FBFB';" onmouseout="buttonrevwrdlet(); this.style.backgroundColor='#D2DBE3';" onclick="reversewordletters()" value="Reverse Lettering" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
+													<input name="thebutton8" onmouseover="this.style.backgroundColor='#B4FBFB';" onmouseout="this.style.backgroundColor='#D2DBE3';" onclick="unicodetext();" value="Funny code Text" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
+													<input name="thebutton7" onmouseover="this.style.backgroundColor='#B4FBFB';" onmouseout="this.style.backgroundColor='#D2DBE3';" onclick="genpassword();" value="Passwords Generator" style="border: 1px solid rgb(0, 0, 0); width: 150px; height: 20px; padding-bottom: 2px; background-color: rgb(212, 208, 200); font-size: 14px; font-family: arial; cursor: pointer;" type="button">
+												</div>
+											</td>
+										</tr>
+									</tbody>
+									
+									
+								</table>
+								<!--[if IE]><style type="text/css">.ie-android-ad { float: left; margin-left: -62px; }</style><![endif]-->
+								
+								<p>
+									
+									
+									
+									<textarea name="input_output" id="input_output" style="border: 1px solid rgb(0, 0, 0); overflow: scroll; width: 750; height: 270px; margin-top: 3px; font-family: Arial; font-size: 14px; background-color: rgb(255, 255, 255);" wrap="off" onfocus="this.value=''; this.onfocus=null;" spellcheck="false">Enter text to be reversed here. Click reversing function button above.
+										Click same function button again and watch reversed text be unreversed.
+										
+										"Flip Upside Down" will create the illusion of an upside down text and character substitution.
+										"Flip Text" will reverse the entire text string. reverse text. text reverser. backwards
+										"Flip Words" will reverse the entire word order without reversing the word lettering. text flipper
+										"Reverse Lettering" will reverse each word's lettering without changing the word order or punctuation.
+										"Funny code Text" you can make joke encode and joke decode your text here.
+										"Passwords Generator" - Free tool strong Online Passwords Generator
+									</textarea>
+									
+								<table width="750" cellpadding="0" cellspacing="0">
+									<tbody>
+										<tr valign="top"> 
+											<td height="28" colspan="2"> 
+												<div align="center"><font color="#666666" size="1" face="Verdana, Arial, Helvetica, sans-serif"><img src="./files/images/bulb.png" alt="flip text generator" width="25" height="25" align="absmiddle"> 
+													Type an Upside Down <font color="#CCCCCC">•</font> 
+													Generate a Strong free online Passwords</font>
+												</div>
+											</td>
+										</tr>
+										<tr> 
+											<td width="220">
+												<input title="Select All Text" onclick="SelectAll('input_output')" value="Select All Text" style="border: 1px solid rgb(0, 0, 0); width: 120px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); font-size: 14px; font-family: arial; cursor: pointer;" onmouseover="this.style.backgroundColor='#B4FBFB'" onmouseout="this.style.backgroundColor='#D2DBE3'" type="button"> 
+												<input title="Clear All Text" onclick="cleartext();" value="Clear Text" style="border: 1px solid rgb(0, 0, 0); width: 78px; height: 20px; padding-bottom: 2px; background-color: rgb(210, 219, 227); margin-left: -1px; font-size: 14px; font-family: arial; cursor: pointer;" onmouseover="this.style.backgroundColor='#B4FBFB'" onmouseout="this.style.backgroundColor='#D2DBE3'" type="button">
+											</td>
+											<td width="528" valign="middle">
+												<div align="left">
+													<font color="#313335"><font size="2"><font face="trebuchet ms"><b>Upside Down</b> Words Text and Free tool strong Online Password Generator reverse text</font></font></font>
+													<font size="2"><font color="#333333" face="trebuchet ms"></font><font color="#666666" size="2" face="TREBUCHET MS"></font><font size="2"><font color="#666666" size="2" face="TREBUCHET MS">&nbsp;&nbsp;</font></font><font color="#666666" size="2" face="TREBUCHET MS">&nbsp;&nbsp;</font><font color="#666666" size="2" face="TREBUCHET MS"> </font></font>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								</p>
+							</form>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 		<section>
 			<script>
 				document.write(footer)
 			</script>
 		</section>
-</body>
+	</body>
 </html>
