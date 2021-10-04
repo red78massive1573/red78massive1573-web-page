@@ -11,6 +11,8 @@ Table of contents:
 * [Little Brother's Page](#lil)
 * [Secret](#secret)
 * [LMAO pics / vids / auds](#LMAO)
+* [Blog](#blog)
+* [Flip text](#flip)
 * [My Discord Server](#discord)
 * [discussion](#discuss)
 
@@ -27,10 +29,16 @@ In this page, I will going to post [Scratch](https://scratch.mit.edu/) related a
 In this page, You can see the page that my little brother made.
 
 ## <a name="secret" href="https://red78massive1573.github.io/secret/">Secret</a>
-🤫Contains some secret🤫
+🤫Contains some secret🤫.
 
 ## <a name="LMAO" href="https://red78massive1573.github.io/LMAO/">LMAO pics / vids / auds</a>
-Just a page full of LMAO pictures / videos / audios
+Just a page full of LMAO pictures / videos / audios.
+
+## <a name="blog" href="https://red78massive1573.github.io/blog">My Blog</a>
+In this page, You can see all of my blog post.
+
+## <a name="flip" href="https://red78massive1573.github.io/flip">My Blog</a>
+In this page, You can flip a text however you want.
 
 ## <a name="discord" href="https://red78massive1573.github.io#discord">My Discord Server</a>
 Join my Discord server in this part of the website.
