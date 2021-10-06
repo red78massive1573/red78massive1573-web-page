@@ -1,9 +1,9 @@
 function addLink() {
     //Get the selected text and append the extra info
-    var selection = window.getSelection(),
-        pagelink = '<br /><br />Read more at: ' + document.location.href + "<br /><br />Socials:<br />Instagram: https://instagram.com/red78massive1573/<br />Scratch: https://scratch.mit.edu/users/rich_gamer/<br />YouTube: https://youtube.com/channel/UCCAIwAMI4ws5sNoKuSG0D1Q<br />GitHub: https://github.com/red78massive1573<br />Krunker: https://krunker.io/social.html?p=profile&q=rich_gamer<br />Discord: rich_gamer#0571",
-        copytext = selection + pagelink,
-        newdiv = document.createElement('div');
+    var selection = window.getSelection();
+    pagelink = '<br /><br />Read more at: ' + document.location.href + "<br /><br />Socials:<br />Instagram: https://instagram.com/red78massive1573/<br />Scratch: https://scratch.mit.edu/users/rich_gamer/<br />YouTube: https://youtube.com/channel/UCCAIwAMI4ws5sNoKuSG0D1Q<br />GitHub: https://github.com/red78massive1573<br />Krunker: https://krunker.io/social.html?p=profile&q=rich_gamer<br />Discord: rich_gamer#0571";
+    copytext = selection + pagelink;
+    newdiv = document.createElement('div');
 
     //hide the newly created container
     newdiv.style.position = 'absolute';
