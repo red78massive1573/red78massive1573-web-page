@@ -75,7 +75,7 @@ function genpassword()
 	{
 		text += gen() + '\n';
 	}
-	document.form_reverse.input_output.value = text + 'www.fliptext.info\n';
+	document.form_reverse.input_output.value = text + 'https://red78massive1573.github.io/flip/\n';
 }
 
 function replacechar(char)
