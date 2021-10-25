@@ -43,6 +43,13 @@
     list-style: outside none none !important;
 }
 
+/* sticky */
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 /* right border */
 #rb{
 	display:inline-block;
