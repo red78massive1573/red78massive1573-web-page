@@ -47,7 +47,6 @@ footer {
 
   background: #252a47;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
   place-items: center;
   padding: 50px;
 }
