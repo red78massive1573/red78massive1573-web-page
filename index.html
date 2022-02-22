@@ -94,7 +94,7 @@
 				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
 				var disqus_config = function () {
 				this.page.url = 'https://red78massive1573.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
-				/*this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
+				this.page.identifier = 'main'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable*/
 				};
 				(function() { // DON'T EDIT BELOW THIS LINE
 					var d = document, s = d.createElement('script');
@@ -109,6 +109,13 @@
 		<section>
 			<script>
 				document.write(footer)
+			</script>
+			<script>
+				if('serviceWorker' in navigator) {
+					navigator.serviceWorker
+						.register('./files/config/sw.js')
+						.then(function() { console.log("Service Worker Registered"); });
+				}
 			</script>
 		</section>
 	</body>
