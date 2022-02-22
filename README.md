@@ -13,6 +13,7 @@ Table of contents:
 * [LMAO pics / vids / auds](#LMAO)
 * [Blog](#blog)
 * [Flip text](#flip)
+* [Discord bot](#bot)
 * [My Discord Server](#discord)
 * [discussion](#discuss)
 
@@ -39,6 +40,9 @@ In this page, You can see all of my blog post.
 
 ## <a name="flip" href="https://red78massive1573.github.io/flip">A text flipper engine :v</a>
 In this page, You can flip a text however you want.
+
+## <a name="bot" href="https://red78massive1573.github.io/bot">My discord bot</a>
+Use this page to add my discord bot to your server
 
 ## <a name="discord" href="https://red78massive1573.github.io#discord">My Discord Server</a>
 Join my Discord server in this part of the website.
