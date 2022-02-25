@@ -6,7 +6,7 @@
 /***** Global *****/
 /* Body */
 	body {
-		background: #F5F4EF url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUwxI9n6RuBC2uKvtVMgIKtWeqAtoE64Pn9g&usqp=CAU');
+		background: #F5F4EF url('/files/images/background.webp');
 		color: #000305;
 		font-size: 87.5%; /* Base font size: 14px */
 		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -284,7 +284,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: calc(100% - 300px);
+	width: calc(90% - 100px);
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
