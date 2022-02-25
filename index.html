@@ -5,7 +5,6 @@
 		<title>Main Page</title>
 		<link rel="stylesheet" href="/files/config/main.css" type="text/css"/>
 		<link rel="canonical" href="https://red78massive1573.github.io/" />
-		<link rel="manifest" href="files/config/manifest.json" />
 		<link rel="preconnect" href="https://discordapp.com/">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="the website of red78massive1573, redmassive, red78, red">
@@ -101,14 +100,6 @@
 				document.getElementById("count").innerHTML = "You are here for " + amt() + " times.<br>";
 			</script>
 			<script id="dsq-count-scr" src="//redmassive.disqus.com/count.js" async></script>
-			<script>
-				if('serviceWorker' in navigator) {
-					navigator.serviceWorker
-						.register('./files/config/sw.js')
-						.then(function() { console.log("Service Worker Registered"); });
-				}
-				//github wont let anything edit it's file
-			</script>
 		</section>
 	</body>
 </html>
