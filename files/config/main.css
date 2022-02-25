@@ -280,12 +280,12 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 *****************/
 #content {
 	position: absolute;
-	left: 30px;
+	left: 130px;
 	background: #fff;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: calc(100% - 100px);
+	width: calc(100% - 300px);
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
