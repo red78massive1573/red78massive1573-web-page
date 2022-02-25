@@ -279,11 +279,13 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	Body
 *****************/
 #content {
+	position: absolute;
+	left: 30px;
 	background: #fff;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: calc(100% - 100px);
 	
 	border-radius: 10px;
 	-moz-border-radius: 10px;
