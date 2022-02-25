@@ -16,9 +16,6 @@
 	<body>
 		<section id="content" class="body">
 			<count style="position: absolute;">
-				<script type="text/javascript">
-					document.getElementById("count").innerHTML = "You are here for " + amt() + " times.<br>";
-				</script>
 				<p>You are visitor <img src="https://profile-counter.glitch.me/red78massive1573.github.io/count.svg"/></p>
 				<span id="count"></span>
 				<a href="https://red78massive1573.github.io/#disqus_thread" style="color: #006aff;"></a>
@@ -97,6 +94,7 @@
 			<div id="footer"></div>
 			<script>
 				document.getElementById("footer").innerHTML = footer;
+				document.getElementById("count").innerHTML = "You are here for " + amt() + " times.<br>";
 			</script>
 			<script id="dsq-count-scr" src="//redmassive.disqus.com/count.js" async></script>
 			<script>
