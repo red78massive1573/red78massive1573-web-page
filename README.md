@@ -10,7 +10,6 @@ Table of contents:
 * [Scratch Related Posts](#scratch)
 * [Little Brother's Page](#lil)
 * [Secret](#secret)
-* [LMAO pics / vids / auds](#LMAO)
 * [Blog](#blog)
 * [Flip text](#flip)
 * [Discord bot](#bot)
@@ -31,9 +30,6 @@ In this page, You can see the page that my little brother made.
 
 ## <a name="secret" href="https://red78massive1573.github.io/secret/">Secret</a>
 🤫Contains some secret🤫.
-
-## <a name="LMAO" href="https://red78massive1573.github.io/LMAO/">LMAO pics / vids / auds</a>
-Just a page full of LMAO pictures / videos / audios.
 
 ## <a name="blog" href="https://red78massive1573.github.io/blog">My Blog</a>
 In this page, You can see all of my blog post.
