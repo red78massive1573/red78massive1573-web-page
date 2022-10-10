@@ -18,6 +18,7 @@ button {
   position: absolute;
   left: 0;
   min-width: 10px;
+  max-width: 100%;
 }
 
 #loader{
